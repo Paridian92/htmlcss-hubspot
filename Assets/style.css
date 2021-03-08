@@ -38,6 +38,11 @@ a:hover{
   border-radius: 5px;
 }
 
+.shadowborder{
+  box-shadow:0 0 8px #b3b1b1;
+}
+
+
 /* HEADER */
 
 /* menu fixed */
@@ -50,6 +55,7 @@ a:hover{
   border-bottom: grey 2px solid;
   width: 100%;
   font-size: 0.9em;
+  z-index: 999;
 }
 
 .menu-lft{
@@ -130,7 +136,7 @@ nav{
 nav ul a{
   list-style: none;
   float: right;
-  margin-right: 15px;
+  margin-left: 15px;
   padding-top: 8px;
  
 }
@@ -142,11 +148,12 @@ nav ul a{
   
   background-image: url(/Assets/img/jumbotron.png);
   background-size: cover;
-  height: 700px;  
+  height: 900px;  
 }
 
 .jumbotron h1{
   font-size: 3em;
+  width: 90%;
 }
 
 .jumbo-box{
@@ -155,8 +162,10 @@ nav ul a{
 }
 
 .jumbo-box h3{
+  width: 75%;
   font-size: 0.9em;
   margin-top: 30px;
+  line-height: 25px;
 }
 
 .jumbo-box .btn-orange{
@@ -176,18 +185,191 @@ nav ul a{
 
 .green-strip{
   position: absolute;
-  top: -30px;
+  top: 109px;
   bottom: 0%;
   background-color:#afebe4 ;
   border-top: 4px #33475b solid;
   border-bottom: 4px #33475b solid;
-  height: 90px;
+  height: 130px;
   padding-top: 20px;
   padding-bottom: 30px;
   width: 100%;
 }
 
-.lol{
-  margin-top: 60px;
+/* MAIN */
+main{
+  background-color: #f4f9fd;
 }
 
+.cube-box{
+  text-align: center;
+  margin: 0 15%;
+}
+
+.cube-box img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding-top: 50px;
+  width: 30%;
+}
+
+.cube-box h2{
+  padding-top: 10px;
+}
+
+.cube-box p{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 0.9em; 
+}
+
+.book-container{
+  width: 100%;
+  height: 350px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.book-container-lft{
+  width: 40%;
+  float: left;
+ 
+  
+}
+
+.book-container-lft img{
+  width:70%;
+  display: block;
+  padding-left: 30%;
+  padding-top: 20%;
+}
+
+.book-container-lft .btn-orange{
+  padding: 15px 20px;
+  margin-top: 6%;
+  margin-left: 40%;
+  margin-bottom: 35px;
+  font-size: 0.8em;
+
+}
+
+.book-container-rgt{
+  width: 60%;
+  float: right;
+  margin-top: 80px;
+}
+
+.book-container-rgt p{
+  padding-top: 20px;
+  font-size: 0.9em;
+  width: 70%;
+  line-height: 25px;
+}
+
+.popfeature{
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+#line{
+  position: absolute;
+  top: 50%;
+  width: 60%;
+  height: 1px;
+  border: 1px solid grey;
+  background-color: grey;
+  display: inline-block;
+  margin-left: 5%; 
+}
+
+.book-container-rgt ul li{
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 20px; 
+}
+
+.book-container-rgt ul li i{
+  color: #ff5c38;
+  margin-right: 5px;
+  
+}
+
+/* sezione 3 colonne */
+.colonna{  
+  width: 28%;
+  margin-top: 40px;
+  background-color: white;
+  float: left;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 30px;
+  min-width: 110px;
+}
+
+.colcenter{
+  margin: 40px 8% 0;
+}
+
+.bolla{
+  width: 39%;
+}
+
+.office{
+  width: 48%;
+}
+
+.tavola{
+  width: 35%;
+}
+
+.colonna p{
+  margin: 30px 30px 60px;
+  width: 85%;
+  
+}
+
+
+.centerline{
+  width: 90%;
+  height: 1px;
+  border: 1px solid grey;
+  background-color: grey;
+  margin-left: 5%; 
+  margin-bottom: 20px;
+
+}
+
+.colonna h4{
+  margin: 30px 0 30px;
+}
+
+.colonna ul li{
+  list-style: none;
+  text-align: left;
+  
+}
+
+.colonna ul li i{
+  margin-right: 10px;
+  margin-left: 15px;
+  color: #ff5c38;
+  text-align: left;
+}
+
+.colonna .btn-orange{
+  padding: 15px 20px;
+  margin:20px 0 40px;
+}
+
+.gradient{
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(top right, #FFFFFF 0%, #AACFEF 100%);
+  text-align: center;
+  
+}
