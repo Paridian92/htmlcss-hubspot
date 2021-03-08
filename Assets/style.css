@@ -8,8 +8,8 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  min-width: 1200px;
   color: #33475b;
+  min-width: 1200px;
 }
 
 .clearfix::after {
@@ -22,9 +22,25 @@ body{
   margin: 0 15%;
 }
 
+a{
+  text-decoration: none;
+  color: #33475b;
+}
+
+a:hover{
+  color:#ff5c38;
+}
+
+.btn-orange{
+  background-color:#ff5c38;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+}
+
 /* HEADER */
 
-/* menu fissato in alto */
+/* menu fixed */
 
 #fixed-menu{
   background-color: #f4f9fd;
@@ -33,6 +49,7 @@ body{
   line-height: 70px;
   border-bottom: grey 2px solid;
   width: 100%;
+  font-size: 0.9em;
 }
 
 .menu-lft{
@@ -48,11 +65,6 @@ body{
   border-right: 2px #33475b solid;
 }
 
-.menu-left1 a,
-.menu-left2 a{
-  text-decoration: none;
-}
-
 .menu-left2{
   display: inline-block;
   padding-left: 10px;
@@ -60,9 +72,122 @@ body{
 
 .menu-rgt{
   float: right;
+               
 }
 
 .menu-rgt i{
   color: #0ca8c0;
+}
+
+.menu-rgt .fas:hover{
+  color:#ff5c38;
+}
+
+.btn-white{
+  background-color: white;
+  display: inline-block;
+  padding: 0 8px;
+  margin: 0 15px;
+  border: 1px solid #ff5c38;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+a .btn-white{
+  color: #ff5c38;
+  line-height: 40px;
+}
+
+.menu-rgt .btn-orange{
+  padding: 0 8px;
+  margin-left: 15px;
+}
+
+.menu-rgt a .btn-orange{
+  line-height: 40px;
+}
+
+a:hover .btn-white,
+a:hover .btn-orange{
+  color: #33475b;
+}
+
+/*/menu fixed */
+
+/* nav */
+
+nav{
+  padding-top: 85px;
+  margin-bottom: 40px;
+}
+
+.mainlogo img{
+  float: left;
+  margin-left: 2px;
+}
+
+
+nav ul a{
+  list-style: none;
+  float: right;
+  margin-right: 15px;
+  padding-top: 8px;
+ 
+}
+
+/* /nav */
+
+/* jumbotron */
+.jumbotron{
+  
+  background-image: url(/Assets/img/jumbotron.png);
+  background-size: cover;
+  height: 700px;  
+}
+
+.jumbotron h1{
+  font-size: 3em;
+}
+
+.jumbo-box{
+  width: 50%;
+  padding-top: 50px;
+}
+
+.jumbo-box h3{
+  font-size: 0.9em;
+  margin-top: 30px;
+}
+
+.jumbo-box .btn-orange{
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+
+.jumbo-box h5{
+  margin-top: 30px;
+  font-size: 0.8em;
+  margin-bottom: 300px;
+}
+
+.container-strip{
+  position: relative;
+}
+
+.green-strip{
+  position: absolute;
+  top: -30px;
+  bottom: 0%;
+  background-color:#afebe4 ;
+  border-top: 4px #33475b solid;
+  border-bottom: 4px #33475b solid;
+  height: 90px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.lol{
+  margin-top: 60px;
 }
 
