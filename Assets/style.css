@@ -1,0 +1,68 @@
+/* Classi univoche per tutto il codice/ elementi riutilizzabili */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  min-width: 1200px;
+  color: #33475b;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.stretch{
+  margin: 0 15%;
+}
+
+/* HEADER */
+
+/* menu fissato in alto */
+
+#fixed-menu{
+  background-color: #f4f9fd;
+  height: 70px;
+  position: fixed;
+  line-height: 70px;
+  border-bottom: grey 2px solid;
+  width: 100%;
+}
+
+.menu-lft{
+  float: left;
+  font-size: 1em;
+}
+.menu-left1{
+  display: inline-block;
+  }
+
+.menu-left1 i:last-child{
+  padding-right: 15px;
+  border-right: 2px #33475b solid;
+}
+
+.menu-left1 a,
+.menu-left2 a{
+  text-decoration: none;
+}
+
+.menu-left2{
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.menu-rgt{
+  float: right;
+}
+
+.menu-rgt i{
+  color: #0ca8c0;
+}
+
