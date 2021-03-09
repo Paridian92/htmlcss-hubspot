@@ -2,8 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  
+  box-sizing: border-box;  
 }
 
 body{
@@ -64,7 +63,7 @@ a:hover{
 }
 .menu-left1{
   display: inline-block;
-  }
+}
 
 .menu-left1 i:last-child{
   padding-right: 15px;
@@ -77,8 +76,7 @@ a:hover{
 }
 
 .menu-rgt{
-  float: right;
-               
+  float: right;               
 }
 
 .menu-rgt i{
@@ -137,15 +135,13 @@ nav ul a{
   list-style: none;
   float: right;
   margin-left: 15px;
-  padding-top: 8px;
- 
+  padding-top: 8px; 
 }
 
 /* /nav */
 
 /* jumbotron */
 .jumbotron{
-  
   background-image: url(/Assets/img/jumbotron.png);
   background-size: cover;
   height: 900px;  
@@ -227,7 +223,7 @@ main{
 
 .book-container{
   width: 100%;
-  height: 350px;
+  height: 387px;
   border: 1px solid white;
   border-radius: 5px;
   background-color: white;
@@ -236,8 +232,6 @@ main{
 .book-container-lft{
   width: 40%;
   float: left;
- 
-  
 }
 
 .book-container-lft img{
@@ -250,10 +244,9 @@ main{
 .book-container-lft .btn-orange{
   padding: 15px 20px;
   margin-top: 6%;
-  margin-left: 40%;
+  margin-left: 39%;
   margin-bottom: 35px;
   font-size: 0.8em;
-
 }
 
 .book-container-rgt{
@@ -296,19 +289,20 @@ main{
 .book-container-rgt ul li i{
   color: #ff5c38;
   margin-right: 5px;
-  
 }
 
 /* sezione 3 colonne */
 .colonna{  
   width: 28%;
+  height: 610px;
   margin-top: 40px;
   background-color: white;
   float: left;
   border-radius: 5px;
   text-align: center;
   padding-top: 30px;
-  min-width: 110px;
+  line-height: 140%;
+  font-size: 0.9em;
 }
 
 .colcenter{
@@ -330,9 +324,8 @@ main{
 .colonna p{
   margin: 30px 30px 60px;
   width: 85%;
-  
+ 
 }
-
 
 .centerline{
   width: 90%;
@@ -341,7 +334,6 @@ main{
   background-color: grey;
   margin-left: 5%; 
   margin-bottom: 20px;
-
 }
 
 .colonna h4{
@@ -366,10 +358,133 @@ main{
   margin:20px 0 40px;
 }
 
+/* /sezione 3 colonne */
+
+/* sezione statistiche */
+
 .gradient{
   width: 100%;
-  height: 500px;
-  background-image: linear-gradient(top right, #FFFFFF 0%, #AACFEF 100%);
+  height: 650px;
+  background-image: linear-gradient(to top right, #00a5bb , #09b19d);
   text-align: center;
-  
+  margin-top: 60px;
+  color: white; 
 }
+
+.stats-title h2{
+  font-size: 260%;
+  padding-top: 60px;
+  width: 95%;
+  margin: auto;
+}
+
+.stats-title p{
+  font-size: 1.1em;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.stats-box{
+  margin-top: 50px;
+}
+
+.row li{
+  display: inline-block;
+  width: 24%;
+  height: 130px;
+  list-style: none;
+  vertical-align: middle;
+  margin: 0;
+  margin-right: -4px; 
+}
+
+.row li img{
+  display: block;
+  margin: auto;
+}
+
+.row li span{
+  display: block;
+  font-size: 2em;
+  margin: 15px auto 10px; 
+}
+
+.row li span::after{
+  content: "+";
+  font-size: 0.6em;
+  vertical-align: middle;
+  margin-left: 5px; 
+}
+
+.row li p{
+  font-size: 0.7em;
+}
+
+.firstrow{
+  border-bottom: 1px solid white; 
+  border-right: 1px solid white;
+}
+
+.secondrow{
+  border-right: 1px solid white;
+  padding-top: 10px;
+}
+
+.laststat{
+  border-top: 1px solid white;
+  padding-top: 10px;
+  }
+
+/* seziona donna */  
+
+.logocontainer{
+  width: 100%;
+}
+
+.logocontainer-lft{
+  width: 20%;
+  float: left;
+  margin-left: 15%;
+  margin-top: 10%;
+  text-align: left;
+  line-height: 20px;
+}
+
+.logocontainer-lft h2{
+  font-size: 2em;
+  text-align: center;
+}
+
+.logocontainer-lft p{
+  font-size: 0.8em;
+  padding-top: 20px;
+  width:80%;
+  margin: auto;
+}
+
+.logocontainer-lft span{
+  font-size: 1.2em;
+}
+
+.logocontainer-rgt{
+  width: 60%;
+  margin-top: 10%;
+  float: right; 
+}
+
+.logorow{
+  padding-bottom: 15px;
+}
+
+.logorow li{
+  display: inline;
+  list-style: none;
+  vertical-align: middle;   
+}
+
+.logorow img{
+  width: 15%;
+  padding-right: 15px;
+}
+
+
