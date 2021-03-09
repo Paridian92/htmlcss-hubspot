@@ -487,4 +487,12 @@ main{
   padding-right: 15px;
 }
 
+.wmncontainer-lft{
+  width: 30%;
+  margin-top: 100px;
+}
+
+.wmncontainer-lft h2{
+  text-transform:capitalize;
+}
 
